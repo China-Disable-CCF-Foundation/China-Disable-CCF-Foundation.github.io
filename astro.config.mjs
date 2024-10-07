@@ -11,7 +11,10 @@ export default defineConfig({
 				github: 'https://china-disable-ccf-foundation.github.io',
 			},
 			sidebar: [
-					//[label: 'CCF 的问题',items: { label: 'CCF', slug:'homepage',},],
+				{
+					label: 'CCF 的问题',
+					autogenerate: { directory: 'CCF 的问题' },
+				},
 			],
 		}),
 	],
